@@ -2,7 +2,7 @@
   "ID": "1602DFD6B9F843A3A31CB9AD5561A9A2",
   "ActionKeyword": "aws",
   "Name": "AWS Toolkit",
-  "Description": "Flow Launcher Plugin for AWS Console",
+  "Description": "Open the AWS Console for services in your web browser",
   "Author": "mikemorain, mjtimblin",
   "Version": "1.0.0",
   "Language": "csharp",
