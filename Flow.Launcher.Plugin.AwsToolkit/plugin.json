@@ -1,0 +1,12 @@
+﻿{
+  "ID": "1602DFD6B9F843A3A31CB9AD5561A9A2",
+  "ActionKeyword": "aws",
+  "Name": "AWS Toolkit",
+  "Description": "Flow Launcher Plugin for AWS Console",
+  "Author": "mjtimblin",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit",
+  "IcoPath": "images\\aws.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.AwsToolkit.dll"
+}
