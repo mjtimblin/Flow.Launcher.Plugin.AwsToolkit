@@ -30,7 +30,7 @@ namespace Flow.Launcher.Plugin.AwsToolkit
                 {
                     try
                     {
-                        s.url.OpenInBrowserWindow();
+                        s.url.OpenInBrowserTab();
                         return true;
                     }
                     catch (Exception)
