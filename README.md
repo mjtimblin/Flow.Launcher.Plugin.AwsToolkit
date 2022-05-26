@@ -1,10 +1,10 @@
-# AWS Toolkit 
+# AWS Toolkit
 
 ## Installation
 
 This plugin is intended to be used by [Flow Launcher](https://www.flowlauncher.com/). It will not work with Wox.
 
-To download this plugin, go to the [latest release](https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit/releases/latest) and extract the zip file to Flow's user data plugin directory.
+Download the [latest release](https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit/releases/latest). To install, extract the zip file to Flow Launcher's user data plugin directory in `%appdata%\FlowLauncher\Plugins` or `<YourPortableLocation>\FlowLauncher\app-<VersionOfYourFlowLauncher>\UserData\Plugins` (if you are using portable mode).
 
 ## Usage
 
