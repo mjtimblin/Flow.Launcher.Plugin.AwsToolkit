@@ -7,6 +7,6 @@
   "Version": "1.0.1",
   "Language": "csharp",
   "Website": "https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit",
-  "IcoPath": "images\\aws.png",
+  "IcoPath": "Images\\aws.png",
   "ExecuteFileName": "Flow.Launcher.Plugin.AwsToolkit.dll"
 }

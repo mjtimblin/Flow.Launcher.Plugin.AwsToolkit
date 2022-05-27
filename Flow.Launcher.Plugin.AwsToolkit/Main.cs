@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using Flow.Launcher.Plugin;
 using Flow.Launcher.Plugin.SharedCommands;
 
 namespace Flow.Launcher.Plugin.AwsToolkit
 {
     public class Main: IPlugin
     {
-        private string _pluginDirectory;
-
         private List<ConsoleService> _services;
 
         public List<Result> Query(Query query)
@@ -25,7 +24,7 @@ namespace Flow.Launcher.Plugin.AwsToolkit
             {
                 Title = s.command,
                 SubTitle = s.description,
-                IcoPath = $"{_pluginDirectory}\\images\\{s.command}.png",
+                IcoPath = $"Images\\{s.command}.png",
                 Action = c =>
                 {
                     try
@@ -37,8 +36,7 @@ namespace Flow.Launcher.Plugin.AwsToolkit
                     {
                         return false;
                     }
-                },
-                ContextData = s
+                }
             }));
 
             return results;
@@ -46,9 +44,7 @@ namespace Flow.Launcher.Plugin.AwsToolkit
 
         public void Init(PluginInitContext context)
         {
-            _pluginDirectory = context.CurrentPluginMetadata.PluginDirectory;
-
-            _services = File.ReadLines($"{_pluginDirectory}\\console-services.jsonl").ToList().ConvertAll(
+            _services = File.ReadLines($"{context.CurrentPluginMetadata.PluginDirectory}\\console-services.jsonl").ToList().ConvertAll(
                 line => JsonSerializer.Deserialize<ConsoleService>(line));
         }
     }
