@@ -4,7 +4,7 @@
   "Name": "AWS Toolkit",
   "Description": "Open the AWS Console for services in your web browser",
   "Author": "mikemorain, mjtimblin",
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "Language": "csharp",
   "Website": "https://github.com/mjtimblin/Flow.Launcher.Plugin.AwsToolkit",
   "IcoPath": "icon.png",
